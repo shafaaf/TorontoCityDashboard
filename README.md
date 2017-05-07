@@ -118,6 +118,10 @@ Note: Also to keep the weather data always upto date, wrap the Python update scr
 * Bahareh Najafi
 * Daiqing Li
 
+## Additional Information
+
+More information can be found under the documents folder in the repo. It includes initial and final project proposals, reports, testing results and final evaluation.
+
 ## Images of project
 ![alt text](https://cloud.githubusercontent.com/assets/7485184/25778892/71c70dd8-32d9-11e7-8112-770cbdb7e3e2.png)
 ![alt text](https://cloud.githubusercontent.com/assets/7485184/25778894/71c9f034-32d9-11e7-9767-7c2d414122ad.png)
@@ -127,7 +131,3 @@ Note: Also to keep the weather data always upto date, wrap the Python update scr
 ![alt text](https://cloud.githubusercontent.com/assets/7485184/25778899/71dcbb24-32d9-11e7-9be5-9c4245d9e788.png)
 ![alt text](https://cloud.githubusercontent.com/assets/7485184/25778964/c7c2f782-32da-11e7-98ae-78539ca25081.png)
 
-
-## Additional Information
-
-More information can be found under the documents folder in the repo. It includes initial and final project proposals, reports, testing results and final evaluation.
