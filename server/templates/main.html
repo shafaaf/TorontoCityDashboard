@@ -1,0 +1,735 @@
+<!-- Main html page -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" 
+      type="image/png" 
+      href="http://icons.iconarchive.com/icons/mpt1st/construction/256/traffic-cone-icon.png">
+
+    <!-- ___________________________ CSS links______________________________ -->
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Date slider CSS-->
+    <link rel="stylesheet" href="{{ static_url("myLib/jQRangeSlider/css/iThing.css")}}" type="text/css">
+
+    <!-- Timepicker CSS-->
+    <link rel="stylesheet" href="{{ static_url("myLib/timePicker/css/timepicki.css")}}" type="text/css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="{{ static_url("myStyles.css") }}" type="text/css">
+    <link rel="stylesheet" href="{{ static_url("custom-template.css") }}" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- DateTimePicker CSS -->
+    <link rel="stylesheet" href="{{ static_url("myLib/bootstrapDatetimepicker/bootstrap-datetimepicker.min.css") }}" type="text/css">
+
+    <!-- Bootstrap Navigation Bar CSS -->
+    <link rel="stylesheet" href="{{ static_url("myLib/navBar/css/scrolling-nav.css")}}" type="text/css">
+
+    <title>CVST History Timeline Report Engine</title>
+
+  </head>
+
+  <!-- ___________________________ Body _____________________________ -->
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #00004d;">
+          
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top" style="text-align:left;">CVST History Timeline Report Engine</a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden">
+                  <a class="page-scroll" href="#page-top"></a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-ttcHeatmap">TTC Heatmap</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-bixiHeatmap">BIXI Heatmap</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-weatherOverview">Weather Overview</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-ttcOverview">TTC Overview</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-roadIncidentHeatmap">Road Incident/Twitter Reports</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href="#page-trafficInfoHeatMap">Road Traffic Overview</a>
+              </li>
+            </ul>
+          </div>
+           
+          <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+          <div class="container">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li class="active">
+                        <a href="#"><i class="fa fa-fw fa-dashboard"></i> Timeline</a>
+                    </li>
+                    <li>
+                        <a href="/Forms"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+              <!-- Page Heading -->
+              <div class="row">
+                <div class="col-lg-12">
+                  <h1 class="page-header" style = "text-align:center">
+                    CVST History Timeline Map
+                  </h2>
+                </div>
+              </div>
+              
+              <section id="page-ttcHeatmap" class="page-ttcHeatmap-section">
+                <div class="container">
+                  <!-- _________________ TTC heatmap of vehicles __________________ -->
+                  <div class = "row" style = "text-align:center;" >
+                    <div class="col-lg-12">
+                      <h3 class = "mapTitle">Current TTC Vehicles Heatmap</h3>
+
+                      <!-- TTC heatmap display options -->
+                      <div>
+                        <button type="button" class="btn btn-default" onclick="toggleHeatmap()">Toggle Heatmap</button>
+                        <button type="button" class="btn btn-default" onclick="changeGradient()">Change Color</button>
+                        <button type="button" class="btn btn-default" onclick="changeRadius()">Change Radius</button>
+                        <button type="button" class="btn btn-default" onclick="ttcSnapshotStats()">Statistics</button>
+                        <button type="button" class="btn btn-default" onclick="ttcUpdateData()">Update</button>               
+                      </div>
+
+                      <br/>
+
+                      <!-- TTC Heat Map to show current vehicle points -->
+                      <div class="heatmap" id="ttcMap">
+                        <img class="loading" src= "https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="" />
+                      </div>
+                      
+                      <br/>
+
+                      <!-- Date timepicker for snapshot of TTC Heat Map -->
+                      <div class = "row" style = "text-align:center;" >
+                        <div class="container col-lg-6 col-lg-offset-3" style="text-align:center;">
+                          
+                          <div class="form-group">
+                            <label for="start-date-input">TTC Heatmap Snapshot Date & Time:</label>
+                          </div>
+                          
+                          <div class="form-group">
+                            <div class="input-group date" id="ttcSnapshotDateTime">
+                              <input type="text" class="form-control" id="ttcSnapshotDateTimeValue" />
+                              <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                            </div>
+                          </div>                       
+
+                          <!-- User submit button for TTC snapshot -->
+                          <button id = "ttcSnapShotSubmitButton" type="button" onclick="ttcSnapShotSubmit()" class="btn btn-success">
+                            Get TTC bus heatmap
+                          </button>
+
+                        </div>
+                      </div>
+
+                    </div>  <!-- column -->
+                    
+                    <!-- Stats for ttc -->
+                    <div class="col-lg-12" id = "ttcSnapshotStatsView" style = "text-align:center;"></div>
+
+                  </div>    <!-- row -->
+                </div>      <!-- container -->
+              </section>    <!-- section -->
+
+              <section id="page-bixiHeatmap" class="page-bixiHeatmap-section">
+                <div class="container">
+                  <!-- _______________ BIXI heatmap of bikes per station _________________ -->
+                  <div class = "row" style = "text-align:center;" >
+                    <div class="col-lg-12">
+
+                      <!-- Bixi Heat Map stuff to show number of bikes -->
+                      <h3 class = "mapTitle">Current BIXI Bikes Per Station Heatmap</h3>
+
+                      <!-- Bixi heatmap display options -->
+                      <!-- Todo: Figure out why style is different here for a milisecond at startup -->
+                      <div>
+                        <button type="button" class="btn btn-default" onclick="bixiToggleHeatmap()">Toggle Heatmap</button>
+                        <button type="button" class="btn btn-default" onclick="bixiChangeGradient()">Change Color</button>
+                        <button type="button" class="btn btn-default" onclick="bixiChangeRadius()">Change Radius</button>
+                        <button type="button" class="btn btn-default" onclick="bixiSnapshotStats()">Statistics</button>
+                        <button type="button" class="btn btn-default" onclick="bixiUpdateData()">Update</button>
+                      </div>
+
+                      <br/>
+
+                      <!--- Bixi to show current number of bikes at each station -->
+                      <div class="heatmap" id="bixiMap">
+                        <img class="loading" src = "https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="" />
+                      </div>
+
+                      <br/>
+
+
+                      <div class="row" style="text-align:center;">
+                        <div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+                          <!-- Date timepicker for snapshot of Bixi Heat Map -->
+                          <div class="form-group">
+                            <label for="start-date-input">Bixi Bikes/Station Heatmap Snapshot Date & Time:</label>
+                          </div>
+                          <!--div class="form-group" style = "width:40%;"-->
+                          <div class="form-group">
+                            <div class="input-group date" id="bixiSnapshotDateTime">
+                              <input type="text" class="form-control" id="bixiSnapshotDateTimeValue" />
+                              <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                            </div>
+                          </div>
+
+                          <!-- User submit button for bixi snapshot -->
+                          <button id = "bixiSnapShotSubmitButton" type="button" onclick="bixiSnapShotSubmit()" class="btn btn-success">
+                            Get Bixi buses heatmap
+                          </button>
+                        </div>
+                      </div>
+                        
+                    </div>    <!-- column -->
+
+                    <!-- Stats for bixi -->
+                    <div class="col-lg-12" id = "bixiSnapshotStatsView" style = "text-align:center;"></div>
+
+                  </div>      <!-- row -->
+                </div>        <!-- container-->
+              </section>      <!-- section -->
+
+              <section id="page-weatherOverview" class="page-weatherOverview-section">
+                <div class="container">
+                  <!-- _______________ Weather aggregation _________________ -->
+                  <div class = "row" style = "text-align:center;">
+                    <div class="col-lg-12">
+                      <h3 class = "mapTitle">Current Weather Locations</h3>
+
+                      <!-- Weather Marker color options, also calculates overall average, max, min for all markers-->
+                      <button type="button" class="btn btn-default" id = "colorTemp" onclick="colorPercentile(this.id)">
+                        Color by Temperature
+                      </button>
+                      <button type="button" class="btn btn-default" id = "colorWind" onclick="colorPercentile(this.id)">
+                        Color by Wind_mph
+                      </button>
+                      <button type="button" class="btn btn-default" id = "colorHumidity" onclick="colorPercentile(this.id)">
+                        Color by Humidity
+                      </button>
+
+                      <br/>
+                      <br/>
+
+                      <table style="width:100%;text-align:center;">
+                        <tr>
+                          <th style="text-align:center;">Legend (Relative to data values of other markers)</th>
+                        </tr>
+                        <tr>
+                          <td>Red: 68 ~ 100th Percentile</td>
+                        </tr>
+                        <tr>
+                          <td>Orange: 34 ~ 67th Percentile</td>
+                        </tr>
+                        <tr>
+                          <td>Yellow: 0 ~ 33rd Percentile</td>
+                        </tr>
+                      </table>
+
+                      <br/>
+
+                      <!-- Weather Map to show current points -->
+                      <div id="map"></div>
+
+                      <!-- Key stats which show avg, max, min when user clicks on weather marker color options-->
+                      <div class = "container" id = "keyStats">
+                        <div class="row">
+                           
+                          <div class="col-lg-4" id = "totalAverage">
+                              <h4 style = "text-align:center;">Average</h4>
+                              <p id = "totalAverageValue" style = "text-align:center;"></p>
+                          </div>
+                          
+                          <div class="col-lg-4" id = "totalMinimum">
+                            <h4 style = "text-align:center;">Minimum</h4>
+                            <p id = "totalMinValue" style = "text-align:center;"></p>
+                          </div>
+
+                        
+                          <div class="col-lg-4" id = "totalMaximum">
+                            <h4 style = "text-align:center;">Maximum</h4>
+                            <p id = "totalMaxValue" style = "text-align:center;"></p>
+                          </div>                      
+
+                        </div>
+                      </div>
+
+
+                      <!-- Date Slider -->
+                      <div class="container" style = "width:90%;">
+                        <div id = "dateSlider"></div>
+                      </div>
+
+                      <br/>
+
+                      <div class="container" style = "text-align:left;">
+                        <!-- Time Input fields-->
+                        <div class="col-lg-6">
+                          <p>Start Time:</p>
+                          <input id = "startTime" type="text" name="timepicker" class="time_element"/>
+                          <br/>
+                          <p>End Time:</p>
+                          <input id = "endTime" type="text" name="timepicker" class="time_element"/>
+                        </div>     
+
+                        <!-- __________________ Aggregation options for weather ____________________ -->
+
+                        <!-- Aggregation field from temp, windmph, humidity-->
+                        <div class="col-lg-6">
+                          <p> Aggregation field</p>
+                          <form>
+                            <select id = "fieldSelect">
+                              <option value="temp_c"> Temperature</option>
+                              <option value="windMph" selected="selected">Wind mph</option>
+                              <option value="relativeHumidity">Relative Humidity</option>
+                            </select>
+                          </form>
+
+                          <br/>
+
+                          <p>Aggregation type</p>
+                          <form>
+                            <select id = "ddlViewBy">
+                              <option value="avg">Graph of averages</option>
+                              <option value="max" selected="selected">Graph of maximums</option>
+                              <option value="min">Graph of minimums</option>
+                              <option value="overalls">Overall values of avg, min, max</option>
+                              <option value="top10HighestSnapshots">Top 10 highest snapshots</option>
+                              <option value="top10LowestSnapshots">Top 10 lowest snapshots</option>
+
+                              <option value="top10HighestAvgLocations">Top 10 highest ranked locations</option>
+                              <option value="top10LowestAvgLocations">Top 10 lowest ranked locations</option>
+                              
+                            </select>
+                          </form>
+                        </div>
+                      </div>    <!-- container -->
+
+                      <br/>
+
+                      <!-- Button to chose locations selected in weather map rectangle-->
+                      <div class="container" style = "text-align:left;">
+                        <div class="col-lg-6">
+                          <button type="button" class="btn btn-default" onclick="initRectangle()">Choose aggregation area
+                          </button>      
+                        </div>
+
+                        <!-- Region submit button-->
+                        <div class="col-lg-6">
+                          <button id = "regionSubmitButton" type="button" onclick="submitAggregation()" class="btn btn-success">
+                            <a class="page-scroll" href="#page-weatherChartResult">Submit Regions</a>
+                          </button>
+                        </div>
+                      </div>
+
+                      <!-- ___________________________ Result displays for weather ____________________________ -->
+
+                      <section id="page-weatherChartResult" class="page-weatherChartResult-section">
+
+                        <!-- Chart result-->
+                        <div class="container" id = "chartResult" style = "text-align:center;">
+                          <div class="col-lg-12">
+                            <div id="chart" style="width: 80%, text-align:center;"></div>
+                          </div>
+                        </div>
+
+                        <br/>
+                        <br/>
+                    
+                        <!-- Overall value avg, min, max values display -->
+                        <div class = "container" id = "overallStats" style = "text-align:center;">
+                          <div class="col-lg-4" id = "overallAverage">
+                            <h4 style = "text-align:center;">Overall Average</h4>
+                            <p id = "overallAveragePara" style = "text-align:center;"></p>
+                          </div>
+                        
+                          <div class="col-lg-4" id = "overallMinimum">
+                            <h4 style = "text-align:center;">Overall Minimum</h4>
+                            <p id = "overallMinimumPara" style = "text-align:center;"></p>
+                          </div>
+
+                          <div class="col-lg-4" id = "overallMaximum">
+                            <h4 style = "text-align:center;">Overall Maximum</h4>
+                            <p id = "overallMaximumPara" style = "text-align:center;"></p>
+                          </div>
+                        </div>
+
+                        <!-- Top 10 results of snapshots and ranked avg locations-->
+                        <div class="container" id="top10Results" style = "text-align:center;">
+                          <div class="col-lg-12">
+                            <h3 id = "top10ResultsHeader"></h3>
+                            <div id = "top10Table"></div>
+                          </div>
+                        </div>  <!-- container -->
+                      </section>
+
+                    </div>  <!-- column -->
+                  </div>    <!-- row -->
+                </div>      <!-- container -->
+              </section>    <!-- section -->
+
+
+              <section id="page-ttcOverview" class="page-ttcOverview-section">
+                <div class="container">
+                  <!-- _______________ TTC Aggregations _________________ -->
+                  <div class = "row" style = "text-align:center;">
+                    <div class="col-lg-12">
+                      <h3>TTC Aggregations</h3>
+
+                      <!-- Aggregation Type -->
+                      <p>Aggregation Type</p>
+                      <form>
+                        <select id = "ttcAggregationSelection">
+                          <option value="mostBusy" selected="selected">Most busy routes</option>
+                          <option value="leastBusy">Least busy routes</option>
+                        </select>
+                      </form>
+                      <br>
+
+                      <!-- Date Picker Start Time -->
+                      <div class="form-group">
+                        <label for="start-date-input">Start Date & Time:</label>
+                      </div>
+
+                      <div class = "col-lg-6 col-lg-offset-3" style="text-align:center;">
+                        <div class="form-group">
+                          <div class="input-group date" id="ttcAggregationsDateTimeStart">
+                            <input type="text" class="form-control" id="ttcAggregationsDateTimeStartValue" />
+                            <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Date Picker End Time -->
+                      <div class = "col-lg-6 col-lg-offset-3" style="text-align:center;">
+                        <div class="form-group">
+                          <label for="start-date-input">End Date & Time:</label>
+                        </div>
+
+                        <div class="form-group">
+                          <div class="input-group date" id="ttcAggregationsDateTimeEnd">
+                            <input type="text" class="form-control" id="ttcAggregationsDateTimeEndValue" />
+                            <span class="input-group-addon">
+                              <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- User submit button for TTC Aggregations -->
+                      <div class = "col-lg-6 col-lg-offset-3" style="text-align:center;">
+                        <button id = "ttcAggregationsSubmitButton" type="button" onclick="ttcAggregationsSubmit()" class="btn btn-success">   Get TTC aggregations
+                        </button>
+                      </div>
+
+                      <!-- TTC Aggregations Result in table form-->
+                      <div class = "row" style = "text-align:center" id = "ttcAggregationsResult">
+                        <div class = "col-lg-6 col-lg-offset-3">
+                          <br/>
+                          <button id = "toggleTTCTable" onclick = "hideTTCTable()"> Hide Table
+                          </button>
+                          <br>
+                          <br>
+                          
+                          <div id = "ttcTable">
+                          </div>          
+                        </div>
+                      </div>
+
+                    </div>  <!-- column -->
+                  </div>    <!-- row -->
+                </div>      <!-- container -->
+              </section>    <!-- section -->
+
+              <!-- Road incidents, Twitter stuff -->
+              <section id="page-roadIncidentHeatmap" class="page-roadIncidentHeatmap-section">
+                <div class="container">
+                  <div class="row" style = "text-align:center;">
+                    <div class="col-lg-12">
+                      <h3>Current Road Incidents and Twitter Reports Map</h3>                      
+
+                      <!-- Traffic Map to show current points -->
+                      <div id="roadsMap"></div>    
+                    </div>  <!-- column -->
+                  </div>    <!-- row -->
+                </div>      <!-- container -->                  
+
+                <br/>
+
+                <div class="container">
+                  <div class="row" style="text-align:center;">
+                    <div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+
+                      <!-- Date timepicker for snapshot of Road Incidents, and Twitter Reports -->
+                      <div class="form-group">
+                        <label for="start-date-input">Road Incident and Twitter Reports Snapshot Date & Time:</label>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="input-group date" id="roadsSnapshotDateTime">
+                          <input type="text" class="form-control" id="roadsSnapshotDateTimeValue" />
+                          <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                          </span>
+                        </div>
+                      </div>
+
+                      <!-- User submit button for road traffic snapshot -->
+                      <button id = "roadsSnapShotSubmitButton" type="button" onclick="roadsSnapShotSubmit()" class="btn btn-success">
+                        Get snapshot data
+                      </button>
+                  </div>    <!-- row --> 
+                </div>      <!-- container -->
+              </section>         
+
+              <!-- Road Traffic and stuff -->
+              <section id="page-trafficInfoHeatMap" class="page-trafficInfoHeatMap-section">
+                <div class="container">
+                  <div class="row" style = "text-align:center;">
+                    <div class="col-lg-12">
+                      <h3>Road Traffic Information</h3>
+
+                      <div class="row" style = "text-align:center;">
+                        <div>
+                          <button type="button" class="btn btn-default" onclick="trafficToggleDistrict()">District Heatmap</button>
+                          <button type="button" class="btn btn-default" onclick="trafficTogglePoints()">Concentration Heatmap</button>
+                          <button type="button" class="btn btn-default" onclick="trafficToggleMTO()">Highway Traffic</button>
+                          <button type="button" class="btn btn-default" onclick="trafficToggleTomTom()">Road Traffic</button>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="heatmap" id="trafficMap">
+                        <img class="loading" src = "https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="container">
+                    <div class="row" style="text-align:center;">
+                      <div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+                        <!-- Time Input fields-->
+                        <div class="form-group">
+                          <label for="start-date-input">Road Traffic Start Date & Time:</label>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group date" id="trafficInfoStartTime">
+                              <input type="text" class="form-control" id="trafficInfoStartTimeValue" />
+                              <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-lg-offset-3" style="text-align:center;">
+                        <div class="form-group">
+                          <label for="start-date-input">Road Traffic End Date & Time:</label>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group date" id="trafficInfoEndTime">
+                              <input type="text" class="form-control" id="trafficInfoEndTimeValue" />
+                              <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <button id = "trafficInfoUpdateButton" onclick="trafficUpdateData()" class="btn btn-success">
+                          Update Traffic Data
+                      </button>
+                    </div>
+                  </div> 
+                  <br>
+                </div>
+              </section>                          
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Please wait modal Start here. -->
+    <div class="modal fade bs-example-modal-sm" id="myPleaseWait" tabindex="-1"
+        role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <span class="glyphicon glyphicon-time">
+                </span> Please Wait
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info
+                progress-bar-striped active"
+                style="width: 100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Modal ends Here -->
+
+    <!-- Todo: Leave this here for now -->
+    <div id="ttcPolygonMap" style="display: none;"></div>
+      
+  </body>
+
+<!-- ____________________________ JS links ___________________________________________________________________ -->
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Google Charts stuff -->
+  <script src="https://www.google.com/jsapi"></script>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+<!-- _____________ Own JS files _______________ -->
+
+  <!-- Initializes all maps + heatmaps + polygons-->
+  <script type="text/javascript" src="{{ static_url("polygonRegions.js")}}"></script>
+  <script type="text/javascript" src="{{ static_url("allMapsInit.js")}}"></script>
+
+
+
+  <!-- TTC stuff -->
+
+  <!-- TTC scripts -->
+  <script type="text/javascript" src="{{ static_url("ttcJS/ttcHeatmap.js")}}"></script>
+  <script type="text/javascript" src="{{ static_url("ttcJS/ttcSnapshotStatistics.js")}}"></script>  
+  <script type="text/javascript" src="{{ static_url("ttcJS/ttcAggregations.js")}}"></script>  
+  
+  <!-- TTC polygon init -->
+  <script type="text/javascript" src="{{ static_url("ttcJS/initTTCPolygonMap.js")}}"></script>
+
+
+
+  <!-- Bixi stuff -->
+
+  <!-- Bixi scripts -->
+  <script type="text/javascript" src="{{ static_url("bixiJS/bixiHeatmap.js")}}"></script>
+  <script type="text/javascript" src="{{ static_url("bixiJS/bixiSnapshotStatistics.js")}}"></script>
+
+
+  <!-- Scripts for Roads (Tncidents, twitter) -->
+  <script type="text/javascript" src="{{ static_url("roadsJS/roadsMap.js")}}"></script>
+
+  <!-- Scripts for Traffic -->
+  <script type="text/javascript" src="{{ static_url("trafficJS/trafficInfo.js")}}"></script>
+
+
+  <!-- Weather stuff -->
+
+  <!-- Weather scripts -->
+  <!-- Draw graphs/tables -->
+  <script type="text/javascript" src="{{ static_url("weatherJS/drawResults.js")}}"></script>
+    <!-- Weather weatherAggregations script -->
+  <script type="text/javascript" src="{{ static_url("weatherJS/weatherAggregations.js")}}"></script>
+  <!-- Weather on map stuff -->
+  <script type="text/javascript" src="{{ static_url("weatherJS/initialMapAndHelpers.js")}}"></script> 
+  <!-- Weather coloring scripts -->
+  <script type="text/javascript" src="{{ static_url("weatherJS/weatherColorScripts.js")}}"></script>
+  <!-- avg max min values of current map scripts -->
+  <script type="text/javascript" src="{{ static_url("weatherJS/avgMaxMinAggregations.js")}}"></script>
+
+<!-- _____________ Library JS files _______________ -->
+
+  <!-- jQuery ui -->
+  <!--script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script-->
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+
+  <!-- jQuery ui -->
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+  <!-- Slider -->
+  <script type="text/javascript" src="{{static_url("myLib/jQRangeSlider/jQDateRangeSlider-min.js") }}"></script>
+
+  <!-- Loading all maps + heatmaps -->
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+  </script>
+
+  <script 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwpXWRj88l9FuL-3WZlr9tzkii9sbIMIY&libraries=visualization&callback=initMap">
+  </script>
+
+  <script type="text/javascript" src="{{ static_url("v3-utility-library-master/markerWithlabel/src/markerwithlabel.js")}}""></script>
+
+  <!-- Timepicker -->
+  <script type="text/javascript" src="{{static_url("myLib/timePicker/js/timepicki.js")}}"></script>
+
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Moment.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+
+  <!-- Bootstrap Date Time Picker to get a point in time -->
+  <script type="text/javascript" src="{{ static_url("myLib/bootstrapDatetimepicker/bootstrap-datetimepicker.min.js")}}"></script>
+
+  <!-- Bootstrap Navigation Bar -->
+  <script type="text/javascript" src="{{static_url("myLib/navBar/js/jquery.easing.min.js")}}"></script>
+  <script type="text/javascript" src="{{static_url("myLib/navBar/js/scrolling-nav.js")}}"></script>
+
+
+</html>
+<!-- _________________________________________________________________________________________________________ -->

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CVST Report Generator</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <!-- <link href="static/custom-template.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ static_url("custom-template.css") }}" type="text/css">
+    <link rel="stylesheet" href="{{ static_url("myStyles.css") }}" type="text/css">
+    <link rel="stylesheet" href="{{ static_url("myLib/bootstrapDatetimepicker/bootstrap-datetimepicker.min.css")}}" type="text/css">
+    <!--<link rel="stylesheet" type="text/css" media="screen"
+     href="http://tarruda.github.com/bootstrap-datetimepicker/assets/css/bootstrap-datetimepicker.min.css">-->
+     <!--<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">-->
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="{{ static_url("forms.js")}}"></script>
+
+    <script type="text/javascript" src="{{ static_url("validator.min.js")}}"></script>
+    <script type="text/javascript" src="{{ static_url("polygonRegions.js")}}"></script>
+
+    <!-- Bootstrap Date Time Picker to get a point in time -->
+    <script type="text/javascript" src="{{ static_url("myLib/bootstrapDatetimepicker/bootstrap-datetimepicker.min.js")}}"></script>
+
+
+    <!--Load the Google Charts stuff-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!--<script type="text/javascript"
+     src="http://tarruda.github.com/bootstrap-datetimepicker/assets/js/bootstrap-datetimepicker.min.js">
+    </script>-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #00004d;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">CVST History Timeline Report Engine</a>
+            </div>
+           
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="/"><i class="fa fa-fw fa-dashboard"></i> Timeline</a>
+                    </li>
+                    <li class="active">
+                        <a href="#"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            CVST Report Generator
+                        </h1>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <!--form role="form" id="formInput" method="POST" action="form-update.php"-->
+
+                        <form role="form" id="formInput" data-toggle="validator">
+                            
+                            <div class="form-group">
+                                <label>Data Category</label>
+                                <select class="form-control" id="dataType" name="dataType">
+                                    <option>Select Data Type...</option>
+                                    <option>Air Sensor</option>
+                                    <option>BIXI</option>                                    
+                                    <!--option>Road Closures</option-->
+                                    <!--option>Road Incidents</option-->
+                                    <option>Road Traffic</option>
+                                    <option>TTC</option>
+                                    <option>Weather</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="dataTypeBIXI">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeBIXI">
+                                    <option>Will be available soon...</option>
+                                    <!--option>BIXI Availability</option-->
+                                    <!--option>BIXI Station Downtime</option-->
+                                    <!--option>BIXI Station Usage</option-->
+                                </select> 
+                            </div>
+
+                            <div class="form-group" id="dataTypeTTC">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeTTC">
+                                    <option>Will be available soon...</option>
+                                    <!--option>TTC 1</option-->
+                                    <!--option>TTC 2</option-->
+                                    <!--option>TTC 3</option-->
+                                </select> 
+                            </div>
+
+                            <div class="form-group" id="dataTypeRC">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeRC">
+                                    <option>Will be available soon...</option>
+                                    <!--option>Road Closure 1</option-->
+                                    <!--option>Road Closure 2</option-->
+                                    <!--option>Road Closure 3</option-->
+                                </select> 
+                            </div>
+
+                            <div class="form-group" id="dataTypeRI">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeRI">
+                                    <option>Will be available soon...</option>
+                                    <!--option>Road Incident 1</option-->
+                                    <!--option>Road Incident 2</option-->
+                                    <!--option>Road Incident 3</option-->
+                                </select> 
+                            </div>
+
+                            <div class="form-group" id="dataTypeRT">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeRT">
+                                    <option>Maximum Speed</option>
+                                    <option>Average Speed</option>
+                                    <option>Minimum Speed</option>
+                                    <option>Maximum Freeflow-Speed Deviation</option>
+                                    <option>Average Freeflow-Speed Deviation</option>
+                                    <option>Minimum Freeflow-Speed Deviation</option>
+                                </select> 
+                            </div>
+
+                            <!--
+                            <div class="form-group" id="dataTypeWeather">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeWeather">
+                                    <option>Weather 1</option>
+                                    <option>Weather 2</option>
+                                    <option>Weather 3</option>
+                                </select> 
+                            </div>
+                            -->
+
+                            <div class="form-group" id="dataTypeAir">
+                                <label>Select Aggregation:</label>
+                                <select class="form-control" id="aggTypeAir">
+                                    <option>Will be available soon...</option>
+                                    <!--option>Air Sensor 1</option-->
+                                    <!--option>Air Sensor 2</option-->
+                                    <!--option>Air Sensor 3</option-->
+                                </select> 
+                            </div>
+
+                            <div class="form-group" id="selectTimeInterval">
+                                <label>Time Granularity:</label>
+                                <select class="form-control" id="timeInterval">
+                                    <option>Select Time Interval...</option>
+                                    <option>Every 5 Minutes</option>
+                                    <option>Hourly</option>
+                                    <option>Daily</option>
+                                    <option>Weekly</option>
+                                    <option>Monthly</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="bixiStation">
+                                <label>Station Name</label>
+                                <select class="form-control" id="bixiLocationName" multiple>
+                                    <option value="Bay St / College St">Bay St / College St</option>
+                                    <option value="Bremner Blvd / Rees St">Bremner Blvd / Rees St</option>
+                                    <option value="College St / Huron St">College St / Huron St</option>
+                                    <option value="Elizabeth St / Edward St">Elizabeth St / Edward St</option>
+                                    <option value="Ferry Ramp / Queens Quay W">Ferry Ramp / Queens Quay W</option>
+                                    <option value="Ft. York / Capreol Crt.">Ft. York / Capreol Crt.</option>
+                                    <option value="King St E / Jarvis St">King St E / Jarvis St</option>
+                                    <option value="King St W / Bay S">King St W / Bay St</option>
+                                    <option value="King St W / Spadina Ave">King St W / Spadina Ave</option>
+                                    <option value="Lower Jarvis St / The Esplanade">Lower Jarvis St / The Esplanade</option>
+                                    <option value="Madison Ave / Bloor St W">Madison Ave / Bloor St W</option>
+                                    <option value="Phoebe St / Spadina Ave">Phoebe St / Spadina Ave</option>
+                                    <option value="Scott St / The Esplanade">Scott St / The Esplanade</option>
+                                    <option value="Sherbourne / Carlton (Allan Gardens)">Sherbourne / Carlton (Allan Gardens)</option>
+                                    <option value="Sherbourne St / Wellesley St">Sherbourne St / Wellesley St</option>
+                                    <option value="St George St / Bloor St W">St George St / Bloor St W</option>
+                                    <option value="Temperance St / Yonge St">Temperance St / Yonge St</option>
+                                    <option value="University Ave / Elm St">University Ave / Elm St</option>
+                                    <option value="University Ave / King St W">University Ave / King St W</option>
+                                    <option value="Wellesley/Queen's Park">Wellesley/Queen's Park</option>
+                                    <option value="Wellington St / Portland St">Wellington St / Portland St</option>
+                                    <option value="Widmer St / Adelaide St ">Widmer St / Adelaide St </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="ttcStation">
+                                <label>Station Name</label>
+                                <select class="form-control" id="ttcLocationName" multiple>
+                                    <option value="Bay St / College St">Bay St / College St</option>
+                                    <option value="Bremner Blvd / Rees St">Bremner Blvd / Rees St</option>
+                                    <option value="College St / Huron St">College St / Huron St</option>
+                                    <option value="Elizabeth St / Edward St">Elizabeth St / Edward St</option>
+                                    <option value="Ferry Ramp / Queens Quay W">Ferry Ramp / Queens Quay W</option>
+                                    <option value="Ft. York / Capreol Crt.">Ft. York / Capreol Crt.</option>
+                                    <option value="King St E / Jarvis St">King St E / Jarvis St</option>
+                                    <option value="King St W / Bay S">King St W / Bay St</option>
+                                    <option value="King St W / Spadina Ave">King St W / Spadina Ave</option>
+                                    <option value="Lower Jarvis St / The Esplanade">Lower Jarvis St / The Esplanade</option>
+                                    <option value="Madison Ave / Bloor St W">Madison Ave / Bloor St W</option>
+                                    <option value="Phoebe St / Spadina Ave">Phoebe St / Spadina Ave</option>
+                                    <option value="Scott St / The Esplanade">Scott St / The Esplanade</option>
+                                    <option value="Sherbourne / Carlton (Allan Gardens)">Sherbourne / Carlton (Allan Gardens)</option>
+                                    <option value="Sherbourne St / Wellesley St">Sherbourne St / Wellesley St</option>
+                                    <option value="St George St / Bloor St W">St George St / Bloor St W</option>
+                                    <option value="Temperance St / Yonge St">Temperance St / Yonge St</option>
+                                    <option value="University Ave / Elm St">University Ave / Elm St</option>
+                                    <option value="University Ave / King St W">University Ave / King St W</option>
+                                    <option value="Wellesley/Queen's Park">Wellesley/Queen's Park</option>
+                                    <option value="Wellington St / Portland St">Wellington St / Portland St</option>
+                                    <option value="Widmer St / Adelaide St ">Widmer St / Adelaide St </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="weatherLocation">
+                                <label>Location</label>
+                                <select class="form-control" id="weatherLocationName" multiple>
+                                    <option value="Ajax">Ajax</option>
+                                    <option value="Aurora">Aurora</option>
+                                    <option value="Bradford West Gwillimbury">Bradford West Gwillimbury</option>
+                                    <option value="Brampton">Brampton</option>
+                                    <option value="Caledon">Caledon</option>
+                                    <option value="East Gwillimbury">East Gwillimbury</option>
+                                    <option value="Georgina">Georgina</option>
+                                    <option value="Halton Hills">Halton Hills</option>
+                                    <option value="Markham">Markham</option>
+                                    <option value="Mississauga">Mississauga</option>
+                                    <option value="Mono">Mono</option>
+                                    <option value="New Tecumseth">New Tecumseth</option>
+                                    <option value="Pickering">Pickering</option>
+                                    <option value="Richmond Hill">Richmond Hill</option>
+                                    <option value="Georgina">Georgina</option>
+                                    <option value="Whitby">Whitby</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="roadTrafficDataSource">
+                                <label>Data Source</label>
+                                <select class="form-control" id="roadTrafficDataSourceNames">
+                                    <option value="MTO">MTO Highway Sensors</option>
+                                    <option value="TomTom">TomTom Traffic Sensors</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" id="roadTrafficDistricts">
+                                <label>District</label>
+                                <select class="form-control" id="roadTrafficDistrictNames">
+                                    <option value=null></option>
+                                    <option value="0">Ward 1 - Etobicoke North</option>
+                                    <option value="1">Ward 2 - Etobicoke North</option>
+                                    <option value="2">Ward 3 - Etobicoke Centre</option>
+                                    <option value="3">Ward 4 - Etobicoke Centre</option>
+                                    <option value="4">Ward 5 - Etobicoke-Lakeshore</option>
+                                    <option value="5">Ward 6 - Etobicoke-Lakeshore</option>
+                                    <option value="6">Ward 7 - York West</option>
+                                    <option value="7">Ward 8 - York West</option>
+                                    <option value="8">Ward 9 - York Centre</option>
+                                    <option value="9">Ward 10 - York Centre</option>
+                                    <option value="10">Ward 11 - York South-Weston</option>
+                                    <option value="11">Ward 12 - York South-Weston</option>
+                                    <option value="12">Ward 13 - Parkdale-High Park</option>
+                                    <option value="13">Ward 14 - Parkdale-High Park</option>
+                                    <option value="14">Ward 15 - Eglinton-Lawrence</option>
+                                    <option value="15">Ward 16 - Eglinton-Lawrence</option>
+                                    <option value="16">Ward 17 - Davenport</option>
+                                    <option value="17">Ward 18 - Davenport</option>
+                                    <option value="18">Ward 19 - Trinity-Spadina</option>
+                                    <option value="19">Ward 20 - Trinity-Spadina</option>
+                                    <option value="20">Ward 21 - St. Paul's</option>
+                                    <option value="21">Ward 22 - St. Paul's</option>
+                                    <option value="22">Ward 23 - Willowdale</option>
+                                    <option value="23">Ward 24 - Willowdale</option>
+                                    <option value="24">Ward 25 - Don Valley West</option>
+                                    <option value="25">Ward 26 - Don Valley West</option>
+                                    <option value="26">Ward 27 - Toronto Centre-Rosedal</option>
+                                    <option value="27">Ward 28 - Toronto Centre-Rosedale</option>
+                                    <option value="28">Ward 29 - Toronto-Danforth</option>
+                                    <option value="29">Ward 30 - Toronto-Danforth</option>
+                                    <option value="30">Ward 31 - Beaches-East York</option>
+                                    <option value="31">Ward 32 - Beaches-East York</option>
+                                    <option value="32">Ward 33 - Don Valley East</option>
+                                    <option value="33">Ward 34 - Don Valley East</option>
+                                    <option value="34">Ward 35 - Scarborough Southwest</option>
+                                    <option value="35">Ward 36 - Scarborough Southwest</option>
+                                    <option value="36">Ward 37 - Scarborough Centre</option>
+                                    <option value="37">Ward 38 - Scarborough Centre</option>
+                                    <option value="38">Ward 39 - Scarborough-Agincourt</option>
+                                    <option value="39">Ward 40 - Scarborough-Agincourt</option>
+                                    <option value="40">Ward 41 - Scarborough-Rouge River</option>
+                                    <option value="41">Ward 42 - Scarborough-Rouge River</option>
+                                    <option value="42">Ward 43 - Scarborough East</option>
+                                    <option value="43">Ward 44 - Scarborough East</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="start-date-input">Start Date & Time:</label>
+                                <div class="input-group date" id="startDateTime">
+                                    <input type="text" class="form-control" id="startDateTimeValue" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div> 
+
+                            <div class="form-group">
+                                <label for="end-date-input">End Date & Time:</label>
+                                <div class="input-group date" id="endDateTime">
+                                    <input type="text" class="form-control" id="endDateTimeValue" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-success" id="formSubmit">Submit Button</button>
+                            <button type="reset" class="btn btn-default">Reset Button</button>
+
+                        </form>
+
+                        <br></br>
+
+                        <!--div id="inputEcho">
+                            <label>Input Query: </label>
+                            <p class="queryLine"></p>
+                        </div-->
+
+                        <br></br>
+
+                        <!--div id="outputEcho">
+                            <label>Queried Result: </label>
+                            <p class="dataResult"></p>
+                        </div-->
+                        
+                        <div id= "outputJson">
+                            <button type="button" onclick="outputJsonLink()" class="btn btn-default">See JSON output</button>
+                        </div>
+
+                        <br/>
+
+                        <!--div id="outputEcho2">
+                            <label>Modified Result: </label>
+                            <p class="modResult"></p>
+                        </div-->
+
+                    </div>
+
+                </div>
+                <!-- /.row -->
+
+                <div id="chart_div">
+                </div>
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <div class="modal fade bs-example-modal-sm" id="myPleaseWait" tabindex="-1"
+        role="dialog" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <span class="glyphicon glyphicon-time">
+                </span> Please Wait
+              </h4>
+            </div>
+            <div class="modal-body">
+              <div class="progress">
+                <div class="progress-bar progress-bar-info
+                progress-bar-striped active"
+                style="width: 100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

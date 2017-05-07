@@ -1,0 +1,3186 @@
+[
+    {
+        "bikes": 26, 
+        "coordinates": [
+            -79.395954, 
+            43.639832
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7000, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:40 -0000", 
+        "last_update": null, 
+        "station_name": "Ft. York / Capreol Crt.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.370907, 
+            43.647992
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7001, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:25 -0000", 
+        "last_update": null, 
+        "station_name": "Lower Jarvis St / The Esplanade", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.399429, 
+            43.667333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7002, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:53 -0000", 
+        "last_update": null, 
+        "station_name": "St George St / Bloor St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.402761, 
+            43.667158
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7003, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:47 -0000", 
+        "last_update": null, 
+        "station_name": "Madison Ave / Bloor St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.389099, 
+            43.656518
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7004, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:37 -0000", 
+        "last_update": null, 
+        "station_name": "University Ave / Elm St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.384749, 
+            43.648093
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7005, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:42 -0000", 
+        "last_update": null, 
+        "station_name": "University Ave / King St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.385653, 
+            43.66009
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7006, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:31 -0000", 
+        "last_update": null, 
+        "station_name": "Bay St / College St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.398167, 
+            43.658148
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7007, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:11 -0000", 
+        "last_update": null, 
+        "station_name": "College St / Huron St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.392125, 
+            43.663376
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 18, 
+        "id": 7008, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:55 -0000", 
+        "last_update": null, 
+        "station_name": "Wellesley/Queen's Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.372287, 
+            43.650325
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 0, 
+        "id": 7009, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:39 -0000", 
+        "last_update": null, 
+        "station_name": "King St E / Jarvis St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.395003, 
+            43.645323
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7010, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:48 -0000", 
+        "last_update": null, 
+        "station_name": "King St W / Spadina Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.399256, 
+            43.642982
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7011, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:04 -0000", 
+        "last_update": null, 
+        "station_name": "Wellington St / Portland St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.385225, 
+            43.656152
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7012, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:27 -0000", 
+        "last_update": null, 
+        "station_name": "Elizabeth St / Edward St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 15, 
+        "coordinates": [
+            -79.375274, 
+            43.64656
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7013, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:31 -0000", 
+        "last_update": null, 
+        "station_name": "Scott St / The Esplanade", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.373181, 
+            43.663102
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7014, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:45 -0000", 
+        "last_update": null, 
+        "station_name": "Sherbourne / Carlton (Allan Gardens)", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.380576, 
+            43.64852
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 18, 
+        "id": 7015, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:55:00 -0000", 
+        "last_update": null, 
+        "station_name": "King St W / Bay St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 21, 
+        "coordinates": [
+            -79.376265, 
+            43.640823
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 2, 
+        "id": 7016, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:11 -0000", 
+        "last_update": null, 
+        "station_name": "Ferry Ramp / Queens Quay W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.391479, 
+            43.647145
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7017, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:39 -0000", 
+        "last_update": null, 
+        "station_name": "Widmer St / Adelaide St ", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.386741, 
+            43.641529
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7018, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:48 -0000", 
+        "last_update": null, 
+        "station_name": "Bremner Blvd / Rees St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 14, 
+        "coordinates": [
+            -79.379492, 
+            43.650855
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7019, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:56 -0000", 
+        "last_update": null, 
+        "station_name": "Temperance St / Yonge St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.396555, 
+            43.650033
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 22, 
+        "id": 7020, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:48 -0000", 
+        "last_update": null, 
+        "station_name": "Phoebe St / Spadina Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 20, 
+        "coordinates": [
+            -79.382458, 
+            43.653264
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7021, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:45 -0000", 
+        "last_update": null, 
+        "station_name": "Bay St / Albert St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.387582, 
+            43.650858
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 19, 
+        "id": 7022, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:11 -0000", 
+        "last_update": null, 
+        "station_name": "Simcoe St / Queen St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.4056, 
+            43.6571
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7023, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:30 -0000", 
+        "last_update": null, 
+        "station_name": "College St / Borden St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.381351, 
+            43.666725
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7024, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:27 -0000", 
+        "last_update": null, 
+        "station_name": "Dundonald St/ Church St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.380471, 
+            43.671293
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7025, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:17 -0000", 
+        "last_update": null, 
+        "station_name": "Ted Rogers Way", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.387499, 
+            43.665527
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7026, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:27 -0000", 
+        "last_update": null, 
+        "station_name": "Bay St / St. Joseph St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.393388, 
+            43.652823
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7027, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:01 -0000", 
+        "last_update": null, 
+        "station_name": "Beverly  St / Dundas St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.3768, 
+            43.6582
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 29, 
+        "id": 7028, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:49 -0000", 
+        "last_update": null, 
+        "station_name": "Gould St / Mutual St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.389326, 
+            43.669429
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7029, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:25 -0000", 
+        "last_update": null, 
+        "station_name": "Bay St / Bloor St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.387095, 
+            43.664088
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 28, 
+        "id": 7030, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:04 -0000", 
+        "last_update": null, 
+        "station_name": "Bay St / Wellesley St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.379128, 
+            43.669192
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7031, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:10 -0000", 
+        "last_update": null, 
+        "station_name": "Jarvis St / Isabella St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.401456, 
+            43.652473
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7032, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:23 -0000", 
+        "last_update": null, 
+        "station_name": "Augusta Ave / Dundas St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 26, 
+        "coordinates": [
+            -79.379438, 
+            43.645566
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 1, 
+        "id": 7033, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:19 -0000", 
+        "last_update": null, 
+        "station_name": "Union Station", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.382919, 
+            43.671389
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7034, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:46 -0000", 
+        "last_update": null, 
+        "station_name": "Church St / Bloor St E", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 19, 
+        "coordinates": [
+            -79.419576, 
+            43.643975
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 4, 
+        "id": 7035, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:17 -0000", 
+        "last_update": null, 
+        "station_name": "Queen St / Ossington Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.36023, 
+            43.651318
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7036, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:00 -0000", 
+        "last_update": null, 
+        "station_name": "Trinity St/ Front St E", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.4058, 
+            43.6523
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 17, 
+        "id": 7037, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:49 -0000", 
+        "last_update": null, 
+        "station_name": "Bathurst St / Dundas St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 0, 
+        "coordinates": [
+            -79.381484, 
+            43.656094
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7038, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:29 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas St / Yonge St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 13, 
+        "coordinates": [
+            -79.38882, 
+            43.653743
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7039, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:48 -0000", 
+        "last_update": null, 
+        "station_name": "Simcoe St / Dundas St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.415, 
+            43.6643
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7040, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:37 -0000", 
+        "last_update": null, 
+        "station_name": "Euclid Ave / Bloor St.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 18, 
+        "coordinates": [
+            -79.382736, 
+            43.656729
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7041, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:53 -0000", 
+        "last_update": null, 
+        "station_name": "Edward St / Yonge St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 14, 
+        "coordinates": [
+            -79.374, 
+            43.6673
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 19, 
+        "id": 7042, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:38 -0000", 
+        "last_update": null, 
+        "station_name": "Sherbourne St / Wellesley St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.383717, 
+            43.63951
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7043, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:01 -0000", 
+        "last_update": null, 
+        "station_name": "Queens Quay / Lower Simcoe", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.3806, 
+            43.6636
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7044, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:24 -0000", 
+        "last_update": null, 
+        "station_name": "Church St / Alexander St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.376716, 
+            43.653236
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 4, 
+        "id": 7045, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:45 -0000", 
+        "last_update": null, 
+        "station_name": "Bond St / Queen St E", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.409597, 
+            43.64534
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7046, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:52 -0000", 
+        "last_update": null, 
+        "station_name": "Niagara St. / Richmond St. W.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.389165, 
+            43.657763
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7047, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:42 -0000", 
+        "last_update": null, 
+        "station_name": "University Ave / Gerrard St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 23, 
+        "coordinates": [
+            -79.377962, 
+            43.646144
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 24, 
+        "id": 7048, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:03 -0000", 
+        "last_update": null, 
+        "station_name": "Front/Yonge (Hockey Hall of Fame)", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.4015, 
+            43.6476
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7049, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:53 -0000", 
+        "last_update": null, 
+        "station_name": "Queen St / Portland St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.374222, 
+            43.652634
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 4, 
+        "id": 7050, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:39 -0000", 
+        "last_update": null, 
+        "station_name": "Richmond St E / Jarvis St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.384423, 
+            43.664953
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7051, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:15 -0000", 
+        "last_update": null, 
+        "station_name": "Wellesley St E. / Yonge St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.379878, 
+            43.647259
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 22, 
+        "id": 7052, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:10 -0000", 
+        "last_update": null, 
+        "station_name": "Wellington St W / Bay St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.38783, 
+            43.645859
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 20, 
+        "id": 7053, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:23 -0000", 
+        "last_update": null, 
+        "station_name": "Metro Hall Plaza", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.391051, 
+            43.640722
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7054, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:43 -0000", 
+        "last_update": null, 
+        "station_name": "Navy Wharf Ct. / Bremner Blvd.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.37617, 
+            43.66207
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7055, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:08 -0000", 
+        "last_update": null, 
+        "station_name": "Jarvis St / Carlton St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 20, 
+        "coordinates": [
+            -79.366648, 
+            43.661149
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7056, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:30 -0000", 
+        "last_update": null, 
+        "station_name": "Parliament St / Gerrard St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.3854, 
+            43.645533
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 20, 
+        "id": 7057, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:50 -0000", 
+        "last_update": null, 
+        "station_name": "Simcoe St / Wellington St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.400053, 
+            43.6637
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7058, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:51 -0000", 
+        "last_update": null, 
+        "station_name": "Huron/ Harbord St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.390477, 
+            43.643473
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7059, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:28 -0000", 
+        "last_update": null, 
+        "station_name": "Front St W / Blue Jays Way", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.367139, 
+            43.652123
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7060, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:39 -0000", 
+        "last_update": null, 
+        "station_name": "Princess Ave / Adelaide St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.407224, 
+            43.665876
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7061, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:30 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor St / Brunswick Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.390213, 
+            43.659226
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7062, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:23 -0000", 
+        "last_update": null, 
+        "station_name": "University Ave / College St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.39355, 
+            43.668327
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7063, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:56 -0000", 
+        "last_update": null, 
+        "station_name": "Queens Park / Bloor St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.362198, 
+            43.65205
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7064, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:51 -0000", 
+        "last_update": null, 
+        "station_name": "51 Parliament St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.365769, 
+            43.659575
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7065, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:41 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas St / Parliament St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.397716, 
+            43.662237
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7066, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:49 -0000", 
+        "last_update": null, 
+        "station_name": "Willcocks St / St. George St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 15, 
+        "coordinates": [
+            -79.375413, 
+            43.643795
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 24, 
+        "id": 7067, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:50 -0000", 
+        "last_update": null, 
+        "station_name": "Yonge St. / Harbour St.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 23, 
+        "coordinates": [
+            -79.367766, 
+            43.644272
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 4, 
+        "id": 7068, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:16 -0000", 
+        "last_update": null, 
+        "station_name": "Dockside Dr / Queens Quay E.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.395504, 
+            43.649147
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7069, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:42 -0000", 
+        "last_update": null, 
+        "station_name": "Queen St W / Spadina Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.380414, 
+            43.643667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7070, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:02 -0000", 
+        "last_update": null, 
+        "station_name": "25 York St (ACC/Union Station South)", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.397574, 
+            43.634982
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7071, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:22 -0000", 
+        "last_update": null, 
+        "station_name": "Bathurst / Queens Quay (Island Airport)", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.416519, 
+            43.644524
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7072, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:29 -0000", 
+        "last_update": null, 
+        "station_name": "Queen St W / Shaw St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.392895, 
+            43.640903
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7073, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:05 -0000", 
+        "last_update": null, 
+        "station_name": "Bremner / Spadina", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 13, 
+        "coordinates": [
+            -79.402496, 
+            43.664137
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7074, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:00 -0000", 
+        "last_update": null, 
+        "station_name": "Spadina Ave / Sussex Ave", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 17, 
+        "coordinates": [
+            -79.395854, 
+            43.636533
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7075, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:46 -0000", 
+        "last_update": null, 
+        "station_name": "Queens Quay W / Dan Leckie Way", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 15, 
+        "coordinates": [
+            -79.380464, 
+            43.640132
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7076, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:19 -0000", 
+        "last_update": null, 
+        "station_name": "York St / Queens Quay W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.382767, 
+            43.659777
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7077, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:50 -0000", 
+        "last_update": null, 
+        "station_name": "College Park South", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.4032, 
+            43.6576
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7078, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:02 -0000", 
+        "last_update": null, 
+        "station_name": "College St / Major St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.379052, 
+            43.660694
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7079, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:56 -0000", 
+        "last_update": null, 
+        "station_name": "McGill St / Church St", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.300463, 
+            43.688325
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7083, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:04 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Barrington", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.301915, 
+            43.68704
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7084, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:49 -0000", 
+        "last_update": null, 
+        "station_name": "Stephenson/Main", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.303888, 
+            43.687393
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7085, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:56 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Westlake", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.311073, 
+            43.686829
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7086, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:56 -0000", 
+        "last_update": null, 
+        "station_name": "Cedarvale/Danforth", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.316756, 
+            43.684371
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 22, 
+        "id": 7087, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:31 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Aldridge", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.322961, 
+            43.683378
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7088, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:18 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Coxwell", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.379577, 
+            43.662767
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7089, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:45 -0000", 
+        "last_update": null, 
+        "station_name": "Church St / Wood", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.329455, 
+            43.681991
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7090, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:56 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Lamb", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.337506, 
+            43.681329
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7091, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:33 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Donlands", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.344062, 
+            43.680223
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7092, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:20 -0000", 
+        "last_update": null, 
+        "station_name": "Lipton/Pape", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.346289, 
+            43.678401
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7093, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:43 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Gough", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.352222, 
+            43.678056
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7094, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:53 -0000", 
+        "last_update": null, 
+        "station_name": "Chester/Danforth", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.35667, 
+            43.677076
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7095, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:20 -0000", 
+        "last_update": null, 
+        "station_name": "Danforth/Ellerbeck", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.338931, 
+            43.661508
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7096, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:23 -0000", 
+        "last_update": null, 
+        "station_name": "Boston/Queen", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.354704, 
+            43.671172
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7097, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:59 -0000", 
+        "last_update": null, 
+        "station_name": "Montcrest/Broadview", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.35347, 
+            43.667819
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7098, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:01 -0000", 
+        "last_update": null, 
+        "station_name": "Langley/Broadview", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.357848, 
+            43.651248
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7099, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:19 -0000", 
+        "last_update": null, 
+        "station_name": "Cherry/Mill", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.361275, 
+            43.660207
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7100, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:28 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas/Regent Park Blvd", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 17, 
+        "coordinates": [
+            -79.366415, 
+            43.647756
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7101, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:15 -0000", 
+        "last_update": null, 
+        "station_name": "Lower Sherbourne/The Esplanade", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 19, 
+        "coordinates": [
+            -79.389728, 
+            43.648711
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7102, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:29 -0000", 
+        "last_update": null, 
+        "station_name": "Nelson/John", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.344946, 
+            43.660176
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7103, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:38 -0000", 
+        "last_update": null, 
+        "station_name": "Jimmie Simpson Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.356598, 
+            43.657071
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7104, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:03 -0000", 
+        "last_update": null, 
+        "station_name": "King/River", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.36138888888888, 
+            43.6561111
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7105, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:25 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Sackville", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.354455, 
+            43.652219
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7106, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:44 -0000", 
+        "last_update": null, 
+        "station_name": "Mill/Tannery", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.356832, 
+            43.650279
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7107, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:52 -0000", 
+        "last_update": null, 
+        "station_name": "Cherry/Distillery Ln", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.358395, 
+            43.652686
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7108, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:57 -0000", 
+        "last_update": null, 
+        "station_name": "Front/Cherry", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.369596, 
+            43.658777
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7109, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:37 -0000", 
+        "last_update": null, 
+        "station_name": "Seaton/Dundas St E", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.36583333333333, 
+            43.6552778
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7110, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:19 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Berkely", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.416379, 
+            43.640885
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7111, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:31 -0000", 
+        "last_update": null, 
+        "station_name": "King/Douro", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.424146, 
+            43.637981
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7112, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:24 -0000", 
+        "last_update": null, 
+        "station_name": "Liberty/Fraser", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.368333, 
+            43.665278
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7113, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:13 -0000", 
+        "last_update": null, 
+        "station_name": "Parliament/Aberdeen", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.36793, 
+            43.664524
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7114, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:55 -0000", 
+        "last_update": null, 
+        "station_name": "Carlton/Parliament", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.376367, 
+            43.6712581
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7115, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:26 -0000", 
+        "last_update": null, 
+        "station_name": "Howard St./ Sherbourne St.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.371849, 
+            43.671827
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7116, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:55:00 -0000", 
+        "last_update": null, 
+        "station_name": "Parliament/Bloor", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.368579, 
+            43.674083
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7117, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:30 -0000", 
+        "last_update": null, 
+        "station_name": "Castle Frank/Bloor", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.380042, 
+            43.648575
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7118, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:11 -0000", 
+        "last_update": null, 
+        "station_name": "King/Bay", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.362379, 
+            43.66721
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7119, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:28 -0000", 
+        "last_update": null, 
+        "station_name": "Sumach/Winchester", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.358534, 
+            43.663993
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7120, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:55 -0000", 
+        "last_update": null, 
+        "station_name": "Gerrard/River", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.374756, 
+            43.657266
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7121, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:32 -0000", 
+        "last_update": null, 
+        "station_name": "Jarvis/Dundas", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.404444, 
+            43.641389
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 4, 
+        "id": 7122, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:31 -0000", 
+        "last_update": null, 
+        "station_name": "Niagara/Tecumseth", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.399802, 
+            43.643603
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7123, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:38 -0000", 
+        "last_update": null, 
+        "station_name": "Portland/Stewart", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.351104, 
+            43.662365
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7124, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:39 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas/Broadview", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 0, 
+        "coordinates": [
+            -79.390592, 
+            43.672829
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7127, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:22 -0000", 
+        "last_update": null, 
+        "station_name": "Bay/Davenport", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 1, 
+        "coordinates": [
+            -79.388858, 
+            43.675492
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7128, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:50 -0000", 
+        "last_update": null, 
+        "station_name": "Yonge/Aylmer", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.396273, 
+            43.674991
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7129, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:10 -0000", 
+        "last_update": null, 
+        "station_name": "Davenport/Avenue", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.399807, 
+            43.674613
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7130, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:06 -0000", 
+        "last_update": null, 
+        "station_name": "Davenport/Bedford", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.398443, 
+            43.66986
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7131, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:43 -0000", 
+        "last_update": null, 
+        "station_name": "Taddle Creek Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 0, 
+        "coordinates": [
+            -79.405416, 
+            43.670303
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7132, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:43 -0000", 
+        "last_update": null, 
+        "station_name": "Kendal/Spadina", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.390556, 
+            43.681944
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7133, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:52 -0000", 
+        "last_update": null, 
+        "station_name": "Summerhill Station", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.391111, 
+            43.68
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 19, 
+        "id": 7134, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:36 -0000", 
+        "last_update": null, 
+        "station_name": "Marlborough/Yonge", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.419722, 
+            43.638333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7135, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:46 -0000", 
+        "last_update": null, 
+        "station_name": "Hanna/Liberty", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.435841, 
+            43.640634
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7136, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:25 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Close", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.416111, 
+            43.676667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7137, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:33 -0000", 
+        "last_update": null, 
+        "station_name": "Davenport/Bathurst", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.423889, 
+            43.675278
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7138, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:47 -0000", 
+        "last_update": null, 
+        "station_name": "Davenport/Christie", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.405556, 
+            43.677778
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7139, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:47 -0000", 
+        "last_update": null, 
+        "station_name": "Glen Edyth/Davenport", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.40698, 
+            43.675791
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7140, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:08 -0000", 
+        "last_update": null, 
+        "station_name": "Macpherson/ Spadina", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.410278, 
+            43.675556
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7141, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:22 -0000", 
+        "last_update": null, 
+        "station_name": "Bridgeman/Kendal", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.414722, 
+            43.674444
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7142, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:33 -0000", 
+        "last_update": null, 
+        "station_name": "Bridgeman/Bathurst", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.408317, 
+            43.671513
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7143, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:48 -0000", 
+        "last_update": null, 
+        "station_name": "Kendal/Bernard", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.416389, 
+            43.671389
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7144, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:17 -0000", 
+        "last_update": null, 
+        "station_name": "Palmerston/Vermont", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.42500000000001, 
+            43.68
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7146, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:58 -0000", 
+        "last_update": null, 
+        "station_name": "Benson/Christie \"Wychwood Barns\"", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.42527777777778, 
+            43.6394444
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7147, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:25 -0000", 
+        "last_update": null, 
+        "station_name": "King St / Mowat", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.423611, 
+            43.639444
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7148, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:57 -0000", 
+        "last_update": null, 
+        "station_name": "King / Jefferson", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.42083333333333, 
+            43.67
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7149, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:29 -0000", 
+        "last_update": null, 
+        "station_name": "Yarmouth/Christie", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 18, 
+        "coordinates": [
+            -79.43361111111112, 
+            43.6555556
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 1, 
+        "id": 7150, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:59 -0000", 
+        "last_update": null, 
+        "station_name": "Dufferin Grove Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.42027777777778, 
+            43.6686111
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7151, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:38 -0000", 
+        "last_update": null, 
+        "station_name": "Essex/Christie", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.42555555555556, 
+            43.6619444
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7152, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:31 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor/Ossington", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.41888888888889, 
+            43.6638889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7153, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:49 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor/Christie", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.41166666666668, 
+            43.6666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 19, 
+        "id": 7154, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:31 -0000", 
+        "last_update": null, 
+        "station_name": "Bathurst Subway Station", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.41055555555556, 
+            43.6638889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7155, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:30 -0000", 
+        "last_update": null, 
+        "station_name": "Bathurst/Lennox", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.43166666666667, 
+            43.6608333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7156, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:35 -0000", 
+        "last_update": null, 
+        "station_name": "Salem/Bloor", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.43583333333333, 
+            43.66083333333333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7157, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:40 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor/Dufferin", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.41111111111111, 
+            43.6422222
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7158, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:48 -0000", 
+        "last_update": null, 
+        "station_name": "King/Strachan", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 13, 
+        "coordinates": [
+            -79.40555555555557, 
+            43.64333333333333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 2, 
+        "id": 7160, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:53 -0000", 
+        "last_update": null, 
+        "station_name": "King/Tecumseth", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.39527777777778, 
+            43.6575
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 14, 
+        "id": 7161, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:16 -0000", 
+        "last_update": null, 
+        "station_name": "Beverly/College", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.3855555555556, 
+            43.6591666666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7162, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:33 -0000", 
+        "last_update": null, 
+        "station_name": "Hayter/Laplante", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.3825, 
+            43.6622222
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 8, 
+        "id": 7163, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:29 -0000", 
+        "last_update": null, 
+        "station_name": "Yonge/Wood", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.379953, 
+            43.657189
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7164, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:44 -0000", 
+        "last_update": null, 
+        "station_name": "Victoria/Dundas", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.3711111111111, 
+            43.6544444
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7167, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:31 -0000", 
+        "last_update": null, 
+        "station_name": "Moss Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.37694444444443, 
+            43.6436111
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7168, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:38 -0000", 
+        "last_update": null, 
+        "station_name": "Bay/Lakeshore", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 0, 
+        "coordinates": [
+            -79.378912, 
+            43.646162
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7169, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:05 -0000", 
+        "last_update": null, 
+        "station_name": "Front/Bay", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.40138888888889, 
+            43.6616667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7170, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:27 -0000", 
+        "last_update": null, 
+        "station_name": "Spadina / Willcocks", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.40909861, 
+            43.63409333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 16, 
+        "id": 7171, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:57 -0000", 
+        "last_update": null, 
+        "station_name": "Strachan/Lakeshore", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 13, 
+        "coordinates": [
+            -79.4088888888889, 
+            43.635
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7172, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:42 -0000", 
+        "last_update": null, 
+        "station_name": "Strachan and Princes' Blvd", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.45833333333334, 
+            43.66666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7173, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:01 -0000", 
+        "last_update": null, 
+        "station_name": "Cariboo St/ Rail Path", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.45166666666667, 
+            43.6563889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7174, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:17 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor/Dundas St W", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 18, 
+        "coordinates": [
+            -79.3875, 
+            43.6386
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7175, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:32 -0000", 
+        "last_update": null, 
+        "station_name": "HTO Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 7, 
+        "coordinates": [
+            -79.399995, 
+            43.639114
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7176, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:34 -0000", 
+        "last_update": null, 
+        "station_name": "Fort York/Bathurst", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.4147222222222, 
+            43.6386111111111
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7177, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:50 -0000", 
+        "last_update": null, 
+        "station_name": "Liberty/Pirandello", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.4525, 
+            43.6575
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7178, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:13 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas W/Bloor", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.4502777777778, 
+            43.6575
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7179, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:24 -0000", 
+        "last_update": null, 
+        "station_name": "Bloor GO/UP Station", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 13, 
+        "coordinates": [
+            -79.4427777777778, 
+            43.6591666666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 10, 
+        "id": 7180, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:44 -0000", 
+        "last_update": null, 
+        "station_name": "Lansdowne/Wade", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.4413888888889, 
+            43.6538888888889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7181, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:54 -0000", 
+        "last_update": null, 
+        "station_name": "Lansdowne/Whytock", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.4430555555556, 
+            43.6508333333333
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7182, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:32 -0000", 
+        "last_update": null, 
+        "station_name": "Sterling/Dundas", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.4377777777778, 
+            43.6513888888889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 11, 
+        "id": 7183, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:16 -0000", 
+        "last_update": null, 
+        "station_name": "Margueretta/College", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.422634, 
+            43.6544915
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7184, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:45 -0000", 
+        "last_update": null, 
+        "station_name": "Ossington Ave/College St.", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.4197222222222, 
+            43.6366666666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 17, 
+        "id": 7188, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:34 -0000", 
+        "last_update": null, 
+        "station_name": "Atlantic/Liberty", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.4019444444445, 
+            43.6541666666667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7189, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:12 -0000", 
+        "last_update": null, 
+        "station_name": "Augusta/Denison Sq", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.398334, 
+            43.664059
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7190, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:02 -0000", 
+        "last_update": null, 
+        "station_name": "St. George/Hoskin", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.407896, 
+            43.661975
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7191, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:47 -0000", 
+        "last_update": null, 
+        "station_name": "Central Tech", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.416277, 
+            43.660167
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7192, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:39 -0000", 
+        "last_update": null, 
+        "station_name": "Harbord/ Clinton", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.4275, 
+            43.6430555555556
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 6, 
+        "id": 7193, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:32 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Gladstone", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 3, 
+        "coordinates": [
+            -79.326319, 
+            43.690564
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7194, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:17 -0000", 
+        "last_update": null, 
+        "station_name": "Mortimer/Coxwell", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.4088888888889, 
+            43.66
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7195, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:33 -0000", 
+        "last_update": null, 
+        "station_name": "Ulster/Bathurst", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.4233333333333, 
+            43.6588888888889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7196, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:08 -0000", 
+        "last_update": null, 
+        "station_name": "Roxton/Harbord", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.4225, 
+            43.6436111111111
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7197, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:59 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Dovercourt", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 14, 
+        "coordinates": [
+            -79.432837, 
+            43.6409
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7198, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:01 -0000", 
+        "last_update": null, 
+        "station_name": "Queen/Cowan", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 11, 
+        "coordinates": [
+            -79.4091666666667, 
+            43.6563888888889
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 0, 
+        "id": 7199, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:45 -0000", 
+        "last_update": null, 
+        "station_name": "College/Markham", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 10, 
+        "coordinates": [
+            -79.384167, 
+            43.651667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 12, 
+        "id": 7202, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:59 -0000", 
+        "last_update": null, 
+        "station_name": "City Hall", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.424557, 
+            43.650978
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7203, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:02 -0000", 
+        "last_update": null, 
+        "station_name": "Harrison/Dovercourt", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.418889, 
+            43.655
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 13, 
+        "id": 7204, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:55 -0000", 
+        "last_update": null, 
+        "station_name": "College/Crawford", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 6, 
+        "coordinates": [
+            -79.42972222, 
+            43.65277778
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7205, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:17 -0000", 
+        "last_update": null, 
+        "station_name": "Rusholme Park/College", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 2, 
+        "coordinates": [
+            -79.411667, 
+            43.651667
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 9, 
+        "id": 7206, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:48 -0000", 
+        "last_update": null, 
+        "station_name": "Claremont/Dundas", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 4, 
+        "coordinates": [
+            -79.416944, 
+            43.649722
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 15, 
+        "id": 7207, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:54:18 -0000", 
+        "last_update": null, 
+        "station_name": "Dundas/Crawford", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 9, 
+        "coordinates": [
+            -79.414663, 
+            43.656296
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 2, 
+        "id": 7208, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:45 -0000", 
+        "last_update": null, 
+        "station_name": "College/Clinton", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 14, 
+        "coordinates": [
+            -79.4213888888889, 
+            43.651111111111106
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 5, 
+        "id": 7209, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:51:47 -0000", 
+        "last_update": null, 
+        "station_name": "Ossington/Harrison", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 8, 
+        "coordinates": [
+            -79.43305555555555, 
+            43.6475
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 7, 
+        "id": 7210, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:50:48 -0000", 
+        "last_update": null, 
+        "station_name": "Mary McCormick Rec Centre", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 12, 
+        "coordinates": [
+            -79.40611111111112, 
+            43.6375
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 3, 
+        "id": 7211, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:52:28 -0000", 
+        "last_update": null, 
+        "station_name": "Fort York/Garrison", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }, 
+    {
+        "bikes": 5, 
+        "coordinates": [
+            -79.409339, 
+            43.641281
+        ], 
+        "date_time": "Fri, 23 Dec 2016 02:55:01 -0000", 
+        "empty_docks": 18, 
+        "id": 7216, 
+        "installed": true, 
+        "last_seen": "Fri, 23 Dec 2016 02:53:27 -0000", 
+        "last_update": null, 
+        "station_name": "Wellington Dog Park", 
+        "terminalName": null, 
+        "timestamp": 1482461701
+    }
+]
