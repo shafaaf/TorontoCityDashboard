@@ -172,6 +172,3 @@ spark-2.1.0-bin-hadoop2.7.tgz
 
 #all keys
 *.pem
-
-# server static files
-server/static

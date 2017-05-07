@@ -1,0 +1,85 @@
+/* Map and heatmap classes */
+
+.mapTitle
+{
+    text-align: center;
+}
+
+/* ------------------------ For weather map ------------------------------------- */
+/* Todo: Change this later to be weatherMap as id */
+#map 
+{
+    height: 400px;
+    width: 100%;
+}
+
+/* ------------------------ For ttc heatmap ------------------------------------- */
+
+#ttcMap 
+{
+    height: 400px;
+    width: 100%;
+}
+
+/* ------------------------ For ttc polygonMap ------------------------------------- */
+
+#ttcPolygonMap 
+{
+    height: 400px;
+    width: 100%;
+}
+
+/* ------------------------ For bixi heatmap ------------------------------------- */
+
+#bixiMap 
+{
+    height: 400px;
+    width: 100%;
+}
+
+/* ------------------------ For roads map ------------------------------------- */
+
+#roadsMap 
+{
+    height: 400px;
+    width: 100%;
+}
+
+/*------------------------- For traffic info Map ----------------------*/
+
+#trafficMap
+{
+    height: 500px;
+    width: 100%;
+}
+
+/* ------------------------- For loading gif ------------------------------------- */
+
+.heatmap
+{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.loading
+{
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ------------------------- For table ------------------------------------- */
+#myTable 
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableEntry
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
