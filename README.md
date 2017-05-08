@@ -44,7 +44,7 @@ A step by step procedure to have a local development env running:
 
 Clone Gitlab project
 ```
-git clone -b shafaafCVST https://shafaaf@gitlab.com/cvst-bi/timeline.git
+git clone https://github.com/shafaaf/ECE496Capstone.git
 ```
 
 Install Python dependencies
