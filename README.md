@@ -1,6 +1,6 @@
-# CVST History Timeline Report Engine
+# Toronto Smart City Dashboard
 
-An Intelligent Transportation System web application that performs data analytics and aggregations for transportation and weather data in Toronto. Aim is to help TTC officials and route planners in extracting trends from the past to help in their decision-making to improve the safety and efficiency of public transportation.
+An Intelligent Transportation System web application that performs data analytics and aggregations for transportation and weather data in Toronto using data from the CVST platform. Aim is to help TTC officials and route planners in extracting trends from the past to help in their decision-making to improve the safety and efficiency of public transportation.
 
 Done as part of University of Toronto Computer Engineering Undergraduate Capstone (ECE496) project.
 The live web application is available at: http://142.104.17.134:8080/
