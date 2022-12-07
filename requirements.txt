@@ -1,7 +1,7 @@
 appdirs==1.4.3
 backports-abc==0.5
 bson==0.4.3
-certifi==2016.9.26
+certifi==2022.12.7
 click==6.6
 elasticsearch==5.0.1
 elasticsearch-dsl==5.2.0
